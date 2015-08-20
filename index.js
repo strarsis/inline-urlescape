@@ -1,4 +1,4 @@
-// ported from SASS script to JavaScript from
+// ported from SASS script to JavaScript from 
 // http://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
 
 
