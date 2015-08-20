@@ -1,0 +1,7 @@
+{
+  "name": "svg-url",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
