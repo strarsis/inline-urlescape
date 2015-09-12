@@ -1,7 +1,20 @@
 {
   "name": "inline-urlescape",
   "version": "0.0.1",
-  "private": true,
+  "description": "URL escapes SVG file strings",
+  "license": "MIT",
+  "repository": "strarsis/eyeglass-inline-svg",
+  "author": {
+    "name": "strarsis",
+    "email": "strarsis@gmail.com",
+    "url": "https://github.com/strarsis/inline-urlescape"
+  },
+  "keywords": [
+    "inline",
+    "url",
+    "escape",
+    "svg"
+  ],
   "main": "index.js",
   "dependencies": {
     "escape-string-regexp": "^1.0.3"
