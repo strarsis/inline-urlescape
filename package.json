@@ -1,7 +1,10 @@
 {
-  "name": "svg-url",
+  "name": "inline-urlescape",
+  "version": "0.0.1",
   "private": true,
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "escape-string-regexp": "^1.0.3"
+  },
   "devDependencies": {}
 }
