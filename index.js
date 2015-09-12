@@ -1,6 +1,6 @@
 // https://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
 // https://github.com/Fyrd/caniuse/issues/1746
-// http://tools.ietf.org/html/rfc3986#section-2.2
+// https://tools.ietf.org/html/rfc3986#section-2.2
 
 var strReplaceAll  = require('str-replace-all');
 var replaceEscaped = function(unsafes, input) {
