@@ -12,7 +12,8 @@ var replaceEscaped = function(unsafes, input) {
 var inlineUrlescape  = function(svgStr){
   var unsafes = [ ":", "/", "?", "#", "[", "]", "@",
                   "!", "$", "&", "(", ")",
-                  "*", "+", ",", ";", "="            ];
+                  "*", "+", ",", ";", "=",
+                  "<", ">"                           ];
   var escapedStr = replaceEscaped(unsafes, svgStr);
 
   var escapedStrQuotes = strReplaceAll('"', "'", escaped);
