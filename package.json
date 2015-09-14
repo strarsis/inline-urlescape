@@ -1,9 +1,9 @@
 {
   "name": "inline-urlescape",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "URL escapes SVG file strings",
   "license": "MIT",
-  "repository": "strarsis/eyeglass-inline-svg",
+  "repository": "strarsis/inline-urlescape",
   "author": {
     "name": "strarsis",
     "email": "strarsis@gmail.com",
