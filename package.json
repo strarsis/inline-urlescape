@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "escape-string-regexp": "^1.0.3"
+    "str-replace-all": "^0.2.0"
   },
   "devDependencies": {}
 }
