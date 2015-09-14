@@ -16,7 +16,7 @@ var inlineUrlescape  = function(svgStr){
                   "<", ">"                           ];
   var escapedStr = replaceEscaped(unsafes, svgStr);
 
-  var escapedStrQuotes = strReplaceAll('"', "'", escaped);
+  var escapedStrQuotes = strReplaceAll('"', "'", escapedStr);
     // only ' is allowed unencoded in a URL
 
   return escapedStrQuotes;
