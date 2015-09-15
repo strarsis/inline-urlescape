@@ -48,7 +48,7 @@ using another tool like svgo or in a build step (e.g. gulp-svgmin to optimized S
 
 Integration
 -----------
-Q: How can I use this in sass (libsass)?
+Q: How can I use this in sass (libsass) to inline a SVG file in my (S)CSS (for a background image)?
 
 This is possible with eyeglass (probably also with sassport), I am planning/working on an eyeglass module that uses this module and accepts a file path to the svg asset to include inline.
 
