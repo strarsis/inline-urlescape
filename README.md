@@ -51,3 +51,11 @@ Integration
 Q: How can I use this in sass (libsass)?
 
 This is possible with eyeglass (probably also with sassport), I am planning/working on an eyeglass module that uses this module and accepts a file path to the svg asset to include inline.
+
+
+Testing
+-------
+One could assume that properly encoding a text file like this should ensure compatibility with all browsers and clients, the unsafe characters are escaped according to URL spec (see Credits).
+But according to the articles (see Credits) this module is based on, some browsers, notably Internet Explorer, may have issues where other browsers parse/show the image properly.
+So any testing would probably involve negative tests with SVG specimen or ways of usage causing trouble in specific browsers.
+Maybe a test setup involving selenium with different browser and version combinations and screenshot diff?
