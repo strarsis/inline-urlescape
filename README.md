@@ -33,7 +33,7 @@ Authors, users and commenters of the following pages (and thanks to many more):
 - https://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
 - https://github.com/Fyrd/caniuse/issues/1746#issuecomment-133416565
 
-If I forgot to mention participants, feel free to contact me and I will add you to the list. :)
+If I forgot to mention participants, feel free to contact me and I will add you to the list. :wink:
 
 
 Optimization
