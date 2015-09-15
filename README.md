@@ -24,6 +24,7 @@ svgUrl(testSvg);
 Optimization
 ------------
 Q: There is extraneous whitespace in the output, how can I optimize?
+
 This module does one job and does it well, it url escapes a text file (notably a SVG file) 
 in an efficient manner (and as an alternative to base64) for safe usage in a data uri. 
 Optimization of the SVG should be performed before escaping with this tool, 
