@@ -1,6 +1,6 @@
 inline-urlescape
 ================
-URL escapes SVG file strings so it can be used in a data url.
+URL escapes SVG file strings so it can be used in a data URI.
 
 
 Installation
