@@ -27,6 +27,15 @@ svgUrl(testSvg);
 ````
 
 
+Credits
+-------
+Authors, users and commenters of the following pages (and thanks to many more):
+- https://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
+- https://github.com/Fyrd/caniuse/issues/1746#issuecomment-133416565
+
+If I forgot to mention participants, feel free to contact me and I will add you to the list. :)
+
+
 Optimization
 ------------
 Q: There is extraneous whitespace in the output, how can I optimize?
@@ -42,12 +51,3 @@ Integration
 Q: How can I use this in sass (libsass)?
 
 This is possible with eyeglass (probably also with sassport), I am planning/working on an eyeglass module that uses this module and accepts a file path to the svg asset to include inline.
-
-
-Credits
--------
-Authors, users and commenters of the following pages (and thanks to many more):
-- https://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
-- https://github.com/Fyrd/caniuse/issues/1746#issuecomment-133416565
-
-If I forgot to mention participants, feel free to contact me and I will add you to the list. :)
