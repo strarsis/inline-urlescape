@@ -1,6 +1,6 @@
 inline-urlescape
 ================
-URL escapes SVG file strings so it can be used in a data URI.
+URL-escapes SVG file strings so it can be used in a data URI.
 
 
 Installation
@@ -40,7 +40,7 @@ Optimization
 ------------
 Q: There is extraneous whitespace in the output, how can I optimize?
 
-This module does one job and does it well, it url escapes a text file (notably a SVG file) 
+This module does one job and does it well, it URL-escapes a text file (notably a SVG file) 
 in an efficient manner (and as an alternative to base64) for safe usage in a data uri. 
 Optimization of the SVG should be performed before escaping with this tool, 
 using another tool like svgo or in a build step (e.g. gulp-svgmin to optimized SVG intermediary files.).
