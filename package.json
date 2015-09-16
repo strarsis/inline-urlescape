@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "str-replace-all": "^0.2.0"
+    "str-replace-all": "^0.3.0"
   },
   "devDependencies": {}
 }
