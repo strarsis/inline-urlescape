@@ -1,6 +1,14 @@
 inline-urlescape
 ================
-URL-escapes SVG file strings so it can be used in a data URI.
+URL-escapes strings (like text from a SVG file) so it can be used in a data URI.
+
+
+Integration
+-----------
+Q: How can I use this in Sass (libsass) to inline a SVG file in my (S)CSS (for a background image)?
+
+There is now an Sass eyeglass module for conveniently inlining SVG files in Sass: [eyeglass-inline-svg](https://www.npmjs.com/package/eyeglass-inline-svg).
+And for just escaping some string, the underlying [eyeglass-inline-urlescape] module can be also used standalone.
 
 
 Installation
@@ -8,6 +16,7 @@ Installation
 ````
 npm install --save inline-urlescape
 ````
+
 
 Usage
 -----
@@ -40,17 +49,10 @@ Optimization
 ------------
 Q: There is extraneous whitespace in the output, how can I optimize?
 
-This module does one job and does it well, it URL-escapes a text file (notably a SVG file) 
-in an efficient manner (and as an alternative to base64) for safe usage in a data uri. 
-Optimization of the SVG should be performed before escaping with this tool, 
+This module does one job and does it well, it URL-escapes a text file (notably a SVG file)
+in an efficient manner (and as an alternative to base64) for safe usage in a data URI.
+Optimization of the SVG should be performed before escaping with this tool,
 using another tool like svgo or in a build step (e.g. gulp-svgmin to optimized SVG intermediary files.).
-
-
-Integration
------------
-Q: How can I use this in sass (libsass) to inline a SVG file in my (S)CSS (for a background image)?
-
-This is possible with eyeglass (probably also with sassport), I am planning/working on an eyeglass module that uses this module and accepts a file path to the svg asset to include inline.
 
 
 Testing
