@@ -16,8 +16,16 @@
     "svg"
   ],
   "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
   "dependencies": {
+    "percentage-encode-char": "^0.1.0",
     "str-replace-all": "^0.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "bluebird": "^2.10.1",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
 }
