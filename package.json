@@ -1,6 +1,6 @@
 {
   "name": "inline-urlescape",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "URL-escapes string (like text from a SVG file) so it can be used in a data URI.",
   "license": "MIT",
   "repository": "strarsis/inline-urlescape",
