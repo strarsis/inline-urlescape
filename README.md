@@ -2,9 +2,8 @@ inline-urlescape
 ================
 URL-escapes strings (like text from a SVG file) so it can be used in a data URI.
 
-Notice: Fixed an issue where some unsafe characters where not escaped (like '(').
-
 [![NPM](https://nodei.co/npm/inline-urlescape.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/inline-urlescape/)
+
 
 Integration
 -----------
