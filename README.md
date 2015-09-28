@@ -11,7 +11,6 @@ Q: How can I use this in Sass (libsass) to inline a SVG file in my (S)CSS (for a
 
 There is now an Sass eyeglass module for conveniently inlining SVG files in Sass: 
 [eyeglass-inline-svg](https://www.npmjs.com/package/eyeglass-inline-svg).
-
 And for just escaping some string, the underlying [eyeglass-inline-urlescape] module can be also used standalone.
 
 
