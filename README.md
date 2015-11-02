@@ -2,6 +2,8 @@ inline-urlescape
 ================
 URL-escapes strings (like text from a SVG file) so it can be used in a data URI.
 
+[![Build Status](https://travis-ci.org/strarsis/inline-urlescape.svg?branch=master)](https://travis-ci.org/strarsis/inline-urlescape)
+
 [![NPM](https://nodei.co/npm/inline-urlescape.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/inline-urlescape/)
 
 
