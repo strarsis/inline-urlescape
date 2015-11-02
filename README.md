@@ -2,14 +2,15 @@ inline-urlescape
 ================
 URL-escapes strings (like text from a SVG file) so it can be used in a data URI.
 
-Notice: Fixed an issue where some unsafe characters where not escaped (like '(').
+[![NPM](https://nodei.co/npm/inline-urlescape.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/inline-urlescape/)
 
 
 Integration
 -----------
 Q: How can I use this in Sass (libsass) to inline a SVG file in my (S)CSS (for a background image)?
 
-There is now an Sass eyeglass module for conveniently inlining SVG files in Sass: [eyeglass-inline-svg](https://www.npmjs.com/package/eyeglass-inline-svg).
+There is now an Sass eyeglass module for conveniently inlining SVG files in Sass: 
+[eyeglass-inline-svg](https://www.npmjs.com/package/eyeglass-inline-svg).
 And for just escaping some string, the underlying [eyeglass-inline-urlescape] module can be also used standalone.
 
 
